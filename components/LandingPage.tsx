@@ -90,11 +90,12 @@ const Hero: React.FC<{ onStart: () => void }> = ({ onStart }) => (
               <div className="aspect-video">
                 <iframe
                   className="w-full h-full"
-                  src={`https://www.youtube.com/embed/${video.id}`}
+                  src={`https://www.youtube-nocookie.com/embed/${video.id}`}
                   title={video.title}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
                 ></iframe>
               </div>
             </div>
