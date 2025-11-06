@@ -8,10 +8,10 @@ interface LandingPageProps {
 }
 
 const VIDEOS = [
-  { type: 'youtube', id: 'aqz-KE-bpKQ', title: 'Inspirational Video 1' },
-  { type: 'youtube', id: 'eRsGyueVLvQ', title: 'Inspirational Video 2' },
-  { type: 'youtube', id: 'WjqiU5FgsYc', title: 'Inspirational Video 3' },
-  { type: 'youtube', id: '5L4DQfVIklc', title: 'Inspirational Video 4' },
+  { type: 'youtube', id: '6dSFYrj0r8g', title: 'Inspirational Video 1' },
+  { type: 'youtube', id: 'D_wuNE4d250', title: 'Inspirational Video 2' },
+  { type: 'youtube', id: 'AUClUtW6U-0', title: 'Inspirational Video 3' },
+  { type: 'youtube', id: 'Lcf3F4kUmzw', title: 'Inspirational Video 4' },
 ];
 
 const NavLink: React.FC<{ href: string; children: React.ReactNode }> = ({ href, children }) => {
